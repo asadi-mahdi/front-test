@@ -10,15 +10,20 @@
 <body>
     <h1 style="color: blueviolet;">hello</h1>
     <p>this is paragraph...</p>
-    <form>
+    <form class="form">
         <label for="username">Username:</label>
         <input id="username" type="text" placeholder="username">
         <label for="password">Password:</label>
         <input id="password" type="password" placeholder="password">
         <input class="mahdi-btn" type="submit" value="login">
     </form>
-    <p id="inline-paragraph" style="display: inline;">inline paragraph</p>
+    <p id="inline-paragraph" style="display: inline;" class="paragraph">inline paragraph</p>
+    <button id="change-background-color-btn" class="mahdi-btn">change background color</button>
+    <button id="change-color-btn" class="mahdi-btn" onclick="change_color('inline-paragraph')">change text
+        color</button>
     <P style="display: inline;">123456</P>
+
+    <script src="app.js"></script>
 </body>
 
 </html>

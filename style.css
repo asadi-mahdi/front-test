@@ -21,3 +21,13 @@ body {
     background-color: rgba(100, 164, 241, 0.5);
     color: chartreuse;
 }
+
+.form {
+    padding: 10px;
+    margin: 10px;
+}
+
+.paragraph {
+    border-style: ridge;
+    padding: 10px;
+}
